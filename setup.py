@@ -11,7 +11,7 @@ packages = find_packages()
 
 setup(
     name='django_weather_darksky',
-    version='0.1.0',
+    version='0.1.1',
     description='Wrapper for darksky.net API for django',
     long_description='Simply wrapper for https://darksky.net API for django',
     author='Slava M',
@@ -22,7 +22,8 @@ setup(
     py_modules=['django_weather_darksky'],
     requires = ['python (>= 2.7)', 'django (>= 1.8)'],
     install_requires=[
-        'requests>=2'
+        'requests>=2',
+        'jsonfield>=2.0.1'
     ],
     license='MIT License',
     zip_safe=False,

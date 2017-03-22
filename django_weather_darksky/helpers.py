@@ -22,5 +22,5 @@ def format_temperature(temperature, units='C'):
     """
     Format temperature
     """
-    t = int(temperature)
+    t = round(temperature, 1)
     return '{}{} &deg;{}'.format('+' if t > 0 else '', t, units)
