@@ -1,0 +1,21 @@
+# PyCharm
+.idea
+
+# Python
+*.pyc
+venv
+
+# Node
+node_modules
+npm-debug.log
+
+# Packages
+*.egg-info
+build
+/dist
+
+# Git
+*.orig
+
+# Docs
+docs/_build

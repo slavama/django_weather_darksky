@@ -1,0 +1,5 @@
+recursive-include django_weather_darksky/templates *
+recursive-include django_weather_darksky/locale *
+recursive-include django_weather_darksky/management *
+recursive-include django_weather_darksky/migrations *
+recursive-include django_weather_darksky/templatetags *

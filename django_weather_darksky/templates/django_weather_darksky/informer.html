@@ -1,0 +1,4 @@
+{% load django_weather_darksky %}
+
+<canvas class="icon1" width="24" height="24" rel="{{ data.json_data.icon }}" style="float:left; padding-right: 5px;"></canvas>
+<span style="line-height: 24px">{{ data.json_data.temperature | format_temperature:'C' | safe }}</span>
