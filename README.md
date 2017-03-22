@@ -9,11 +9,11 @@ Install
 2) Add django_weather_darksky to INSTALLED_APPS
 
 3) Add to settings.py
-`
+```
 # Your API key from https://darksky.net/dev/
 DWD_API_KEY = '1234567890'
 DWD_LANG = 'ru'
-`
+```
 
 4) `python manage.py migrate`
 
