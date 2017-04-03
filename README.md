@@ -26,8 +26,8 @@ Usage
 
 2) Add to crontab, for example:
 ```
-0/30 * * * * /var/www/SITE/venv/bin/python /var/www/SITE/manage.py load_forecast --currently
-0 */3 * * * /var/www/SITE/venv/bin/python /var/www/SITE/manage.py load_forecast --daily
+0/30 * * * * /var/www/SITE/venv/bin/python /var/www/SITE/manage.py load_forecast --type currently
+0 */3 * * * /var/www/SITE/venv/bin/python /var/www/SITE/manage.py load_forecast --type daily
 ```
 
 3) Api:
